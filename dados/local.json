@@ -1,0 +1,27 @@
+[
+	{
+		"id": 1,
+		"dataCadastro": "2022-04-27T19:36:47.040Z",
+		"dataAtualizacao": "2022-04-27T19:36:47.040Z",
+		"id_quadra": 0,
+		"nome": "",
+		"username": "",
+		"endereco": [
+			{
+				"rua": "",
+				"numero": "",
+				"quadra": "",
+				"cep": "",
+				"logradouro": "",
+				"complemento": "",
+				"bairro": "",
+				"estado": "",
+				"cidade": ""
+			}
+		],
+		"fone": "",
+		"horario_funcionamento": "",
+		"preco": "",
+		"descricao": ""
+	}
+]
