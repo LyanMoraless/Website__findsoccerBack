@@ -4,6 +4,7 @@ class Quadra extends Modelo {
     static arquivo = 'quadra.json';
 
     quadra_tipo_id = 0;
+    imagem = 'url';
     nome = '';
     largura = '';
     comprimento = '';
