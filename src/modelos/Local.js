@@ -21,7 +21,6 @@ class Local extends Modelo {
     horario_funcionamento = '';
     preco = '';
     descricao = '';
-
 }
 
 module.exports = Local;
