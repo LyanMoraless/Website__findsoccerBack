@@ -1,0 +1,27 @@
+[
+	{
+		"id": 1,
+		"dataCadastro": "2022-04-27T19:21:20.071Z",
+		"dataAtualizacao": "2022-04-27T19:21:20.071Z",
+		"nome": "Futsal"
+	},
+	{
+		"id": 2,
+		"dataCadastro": "2022-04-27T19:21:21.980Z",
+		"dataAtualizacao": "2022-04-27T19:21:21.980Z",
+		"nome": "Society"
+	},
+	{
+		"id": 3,
+		"dataCadastro": "2022-04-27T19:21:22.735Z",
+		"dataAtualizacao": "2022-04-27T19:21:22.735Z",
+		"nome": "Campo"
+	},
+	{
+		"id": 4,
+		"dataCadastro": "2022-04-27T19:21:23.571Z",
+		"dataAtualizacao": "2022-04-27T19:21:23.571Z",
+		"nome": "Gramado Híbrido"
+	}
+	
+]

@@ -1,0 +1,122 @@
+[
+	{
+		"id": 1,
+		"dataCadastro": "2022-04-27T19:21:42.004Z",
+		"dataAtualizacao": "2022-04-27T19:21:42.004Z",
+		"quadra_tipo_id": 0,
+		"nome": "Quadra teste",
+		"largura": "",
+		"comprimento": "",
+		"descricao": "",
+		"piso": "",
+		"tem_vestiario": false,
+		"tem_banheiro": false,
+		"tem_chuveiro": false,
+		"tem_bebedouro": false,
+		"tem_coletes": false,
+		"tem_juiz": false,
+		"tem_cantina": false,
+		"tem_areaAlimentacao": false,
+		"tem_chuteira": false,
+		"tem_bola": false,
+		"chuteira_tipos_aceito": "",
+		"foto": {
+            "id": 1,
+            "url": "/img/QuadraCards/quadra.jpg"
+          },
+          "fotos": [
+            {
+              "id": 1,
+              "url": "https://via.placeholder.com/1024x768"
+            },
+            {
+              "id": 2,
+              "url": "img/quadras/01/2.jpg"
+            },
+            {
+              "id": 3,
+              "url": "img/quadras/01/3.jpg"
+            }
+          ]
+	},
+	{
+		"id": 2,
+		"dataCadastro": "2022-04-27T19:21:44.412Z",
+		"dataAtualizacao": "2022-04-27T19:21:44.412Z",
+		"quadra_tipo_id": 0,
+		"nome": "Quadra teste",
+		"largura": "",
+		"comprimento": "",
+		"descricao": "",
+		"piso": "",
+		"tem_vestiario": false,
+		"tem_banheiro": false,
+		"tem_chuveiro": false,
+		"tem_bebedouro": false,
+		"tem_coletes": false,
+		"tem_juiz": false,
+		"tem_cantina": false,
+		"tem_areaAlimentacao": false,
+		"tem_chuteira": false,
+		"tem_bola": false,
+		"chuteira_tipos_aceito": "",
+		"foto": {
+            "id": 1,
+            "url": "/img/QuadraCards/quadra.jpg"
+          },
+          "fotos": [
+            {
+              "id": 1,
+              "url": "https://via.placeholder.com/1024x768"
+            },
+            {
+              "id": 2,
+              "url": "img/quadras/01/2.jpg"
+            },
+            {
+              "id": 3,
+              "url": "img/quadras/01/3.jpg"
+            }
+          ]
+	},
+	{
+		"id": 3,
+		"dataCadastro": "2022-04-27T19:21:45.299Z",
+		"dataAtualizacao": "2022-04-27T19:21:45.299Z",
+		"quadra_tipo_id": 0,
+		"nome": "Quadra teste",
+		"largura": "",
+		"comprimento": "",
+		"descricao": "",
+		"piso": "",
+		"tem_vestiario": false,
+		"tem_banheiro": false,
+		"tem_chuveiro": false,
+		"tem_bebedouro": false,
+		"tem_coletes": false,
+		"tem_juiz": false,
+		"tem_cantina": false,
+		"tem_areaAlimentacao": false,
+		"tem_chuteira": false,
+		"tem_bola": false,
+		"chuteira_tipos_aceito": "",
+		"foto": {
+            "id": 1,
+            "url": "/img/QuadraCards/quadra.jpg"
+          },
+          "fotos": [
+            {
+              "id": 1,
+              "url": "https://via.placeholder.com/1024x768"
+            },
+            {
+              "id": 2,
+              "url": "img/quadras/01/2.jpg"
+            },
+            {
+              "id": 3,
+              "url": "img/quadras/01/3.jpg"
+            }
+          ]
+	}
+]
