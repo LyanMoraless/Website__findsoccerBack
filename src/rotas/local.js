@@ -17,7 +17,7 @@ router.post('/', (req, res) => {
 })
 
 router.get('/cidades', (req, res) => {
-    let dados = Local.listar().map(local => ({cidade: local.endereco.cidade, estado: local.endereco.estado}));
+    let dados = Local.listar().map(local => ({nome: local.endereco.cidade, estado: local.endereco.estado}));
     res.send(dados);
 })
 

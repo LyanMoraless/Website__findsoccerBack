@@ -19,7 +19,6 @@ class Local extends Modelo {
     };
     fone = '';
     horario_funcionamento = '';
-    preco = '';
     descricao = '';
 }
 

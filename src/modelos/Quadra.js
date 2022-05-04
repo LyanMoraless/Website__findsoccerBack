@@ -10,6 +10,9 @@ class Quadra extends Modelo {
     comprimento = '';
     descricao = '';
     piso = '';
+    precoHora = 0;
+    precoMeiaHora = 0; 
+    avaliacao = 0;
     chuteira_tipos_aceito = '';
     tem_vestiario = false;
     tem_banheiro = false;
@@ -24,7 +27,8 @@ class Quadra extends Modelo {
     foto = null;
     fotos = [];
     horarios = [];
-    precos = [];
+       
+
 }
 
 module.exports = Quadra;

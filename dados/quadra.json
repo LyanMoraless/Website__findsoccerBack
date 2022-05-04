@@ -3,12 +3,15 @@
 		"id": 1,
 		"dataCadastro": "2022-04-27T19:21:42.004Z",
 		"dataAtualizacao": "2022-04-27T19:21:42.004Z",
-		"quadra_tipo_id": 0,
-		"nome": "Quadra teste",
+		"quadra_tipo_id": 1,
+		"nome": "Pavê no fim de Ano",
 		"largura": "",
 		"comprimento": "",
-		"descricao": "",
+		"descricao": "Pavê no fim de Ano é uma quadra muito interessante visto que é um grande doce",
 		"piso": "",
+		"avaliacao": 2.3,
+		"precoHora": 200.00,
+		"precoMeiaHora": 120.00,
 		"tem_vestiario": false,
 		"tem_banheiro": false,
 		"tem_chuveiro": false,
@@ -43,12 +46,15 @@
 		"id": 2,
 		"dataCadastro": "2022-04-27T19:21:44.412Z",
 		"dataAtualizacao": "2022-04-27T19:21:44.412Z",
-		"quadra_tipo_id": 0,
-		"nome": "Quadra teste",
+		"quadra_tipo_id": 2,
+		"nome": "Urso Rosa",
 		"largura": "",
 		"comprimento": "",
-		"descricao": "",
+		"descricao": "Quem já viu na sua vida um futebol com um urso cor de Rosa?",
 		"piso": "",
+		"avaliacao": 3.5,
+		"precoHora": 200.00,
+		"precoMeiaHora": 120.00,
 		"tem_vestiario": false,
 		"tem_banheiro": false,
 		"tem_chuveiro": false,
@@ -62,7 +68,7 @@
 		"chuteira_tipos_aceito": "",
 		"foto": {
             "id": 1,
-            "url": "/img/QuadraCards/quadra.jpg"
+            "url": "/img/QuadraCards/quadra1.jpg"
           },
           "fotos": [
             {
@@ -83,12 +89,15 @@
 		"id": 3,
 		"dataCadastro": "2022-04-27T19:21:45.299Z",
 		"dataAtualizacao": "2022-04-27T19:21:45.299Z",
-		"quadra_tipo_id": 0,
-		"nome": "Quadra teste",
+		"quadra_tipo_id": 3,
+		"nome": "Doce sem Coco",
 		"largura": "",
 		"comprimento": "",
-		"descricao": "",
+		"descricao": "Uma quadra agradável, bonita, e o mais importante, não tem coco em seu meio!!",
 		"piso": "",
+		"avaliacao": 5.0,
+		"precoHora": 200.00,
+		"precoMeiaHora": 120.00,
 		"tem_vestiario": false,
 		"tem_banheiro": false,
 		"tem_chuveiro": false,
@@ -102,7 +111,50 @@
 		"chuteira_tipos_aceito": "",
 		"foto": {
             "id": 1,
-            "url": "/img/QuadraCards/quadra.jpg"
+            "url": "/img/QuadraCards/quadra2.jpg"
+          },
+          "fotos": [
+            {
+              "id": 1,
+              "url": "https://via.placeholder.com/1024x768"
+            },
+            {
+              "id": 2,
+              "url": "img/quadras/01/2.jpg"
+            },
+            {
+              "id": 3,
+              "url": "img/quadras/01/3.jpg"
+            }
+          ]
+	},
+	{
+		"id": 4,
+		"dataCadastro": "2022-04-27T19:21:45.299Z",
+		"dataAtualizacao": "2022-04-27T19:21:45.299Z",
+		"quadra_tipo_id": 4,
+		"nome": "JoGolfinho's",
+		"largura": "",
+		"comprimento": "",
+		"descricao": "Como se pode jogar com golfinhos saltitantes e tão habilidosos como estes",
+		"piso": "",
+		"avaliacao": 1.1,
+		"precoHora": 200.00,
+		"precoMeiaHora": 120.00,
+		"tem_vestiario": false,
+		"tem_banheiro": false,
+		"tem_chuveiro": false,
+		"tem_bebedouro": false,
+		"tem_coletes": false,
+		"tem_juiz": false,
+		"tem_cantina": false,
+		"tem_areaAlimentacao": false,
+		"tem_chuteira": false,
+		"tem_bola": false,
+		"chuteira_tipos_aceito": "",
+		"foto": {
+            "id": 1,
+            "url": "/img/QuadraCards/quadra3.jpg"
           },
           "fotos": [
             {
