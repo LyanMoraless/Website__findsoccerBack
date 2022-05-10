@@ -3,6 +3,7 @@ const Modelo = require('../framework/Modelo')
 class Quadra extends Modelo {
     static arquivo = 'quadra.json';
 
+    local_id = 0;
     quadra_tipo_id = 0;
     imagem = 'url';
     nome = '';
@@ -26,9 +27,6 @@ class Quadra extends Modelo {
     tem_bola = false;
     foto = null;
     fotos = [];
-    horarios = [];
-       
-
 }
 
 module.exports = Quadra;

@@ -3,15 +3,18 @@
 		"id": 1,
 		"dataCadastro": "2022-04-27T19:21:42.004Z",
 		"dataAtualizacao": "2022-04-27T19:21:42.004Z",
+		"local_id": 0,
 		"quadra_tipo_id": 1,
+		"imagem": "url",
 		"nome": "Pavê no fim de Ano",
 		"largura": "",
 		"comprimento": "",
 		"descricao": "Pavê no fim de Ano é uma quadra muito interessante visto que é um grande doce",
 		"piso": "",
+		"precoHora": 120,
+		"precoMeiaHora": 120,
 		"avaliacao": 2.3,
-		"precoHora": 120.00,
-		"precoMeiaHora": 120.00,
+		"chuteira_tipos_aceito": "",
 		"tem_vestiario": false,
 		"tem_banheiro": false,
 		"tem_chuveiro": false,
@@ -22,39 +25,41 @@
 		"tem_areaAlimentacao": false,
 		"tem_chuteira": false,
 		"tem_bola": false,
-		"chuteira_tipos_aceito": "",
 		"foto": {
-            "id": 1,
-            "url": "/img/QuadraCards/quadra.jpg"
-          },
-          "fotos": [
-            {
-              "id": 1,
-              "url": "https://via.placeholder.com/1024x768"
-            },
-            {
-              "id": 2,
-              "url": "img/quadras/01/2.jpg"
-            },
-            {
-              "id": 3,
-              "url": "img/quadras/01/3.jpg"
-            }
-          ]
+			"id": 1,
+			"url": "/img/QuadraCards/quadra.jpg"
+		},
+		"fotos": [
+			{
+				"id": 1,
+				"url": "https://via.placeholder.com/1024x768"
+			},
+			{
+				"id": 2,
+				"url": "img/quadras/01/2.jpg"
+			},
+			{
+				"id": 3,
+				"url": "img/quadras/01/3.jpg"
+			}
+		]
 	},
 	{
 		"id": 2,
 		"dataCadastro": "2022-04-27T19:21:44.412Z",
 		"dataAtualizacao": "2022-04-27T19:21:44.412Z",
+		"local_id": 0,
 		"quadra_tipo_id": 2,
+		"imagem": "url",
 		"nome": "Urso Rosa",
 		"largura": "",
 		"comprimento": "",
 		"descricao": "Quem já viu na sua vida um futebol com um urso cor de Rosa?",
 		"piso": "",
-		"avaliacao": 3.5,
 		"precoHora": 219.99,
-		"precoMeiaHora": 120.00,
+		"precoMeiaHora": 120,
+		"avaliacao": 3.5,
+		"chuteira_tipos_aceito": "",
 		"tem_vestiario": false,
 		"tem_banheiro": false,
 		"tem_chuveiro": false,
@@ -65,39 +70,41 @@
 		"tem_areaAlimentacao": false,
 		"tem_chuteira": false,
 		"tem_bola": false,
-		"chuteira_tipos_aceito": "",
 		"foto": {
-            "id": 1,
-            "url": "/img/QuadraCards/quadra1.jpg"
-          },
-          "fotos": [
-            {
-              "id": 1,
-              "url": "https://via.placeholder.com/1024x768"
-            },
-            {
-              "id": 2,
-              "url": "img/quadras/01/2.jpg"
-            },
-            {
-              "id": 3,
-              "url": "img/quadras/01/3.jpg"
-            }
-          ]
+			"id": 1,
+			"url": "/img/QuadraCards/quadra1.jpg"
+		},
+		"fotos": [
+			{
+				"id": 1,
+				"url": "https://via.placeholder.com/1024x768"
+			},
+			{
+				"id": 2,
+				"url": "img/quadras/01/2.jpg"
+			},
+			{
+				"id": 3,
+				"url": "img/quadras/01/3.jpg"
+			}
+		]
 	},
 	{
 		"id": 3,
 		"dataCadastro": "2022-04-27T19:21:45.299Z",
 		"dataAtualizacao": "2022-04-27T19:21:45.299Z",
+		"local_id": 0,
 		"quadra_tipo_id": 3,
+		"imagem": "url",
 		"nome": "Doce sem Coco",
 		"largura": "",
 		"comprimento": "",
 		"descricao": "Uma quadra agradável, bonita, e o mais importante, não tem coco em seu meio!!",
 		"piso": "",
-		"avaliacao": 5.0,
-		"precoHora": 98.90,
-		"precoMeiaHora": 120.00,
+		"precoHora": 98.9,
+		"precoMeiaHora": 120,
+		"avaliacao": 5,
+		"chuteira_tipos_aceito": "",
 		"tem_vestiario": false,
 		"tem_banheiro": false,
 		"tem_chuveiro": false,
@@ -108,39 +115,41 @@
 		"tem_areaAlimentacao": false,
 		"tem_chuteira": false,
 		"tem_bola": false,
-		"chuteira_tipos_aceito": "",
 		"foto": {
-            "id": 1,
-            "url": "/img/QuadraCards/quadra2.jpg"
-          },
-          "fotos": [
-            {
-              "id": 1,
-              "url": "https://via.placeholder.com/1024x768"
-            },
-            {
-              "id": 2,
-              "url": "img/quadras/01/2.jpg"
-            },
-            {
-              "id": 3,
-              "url": "img/quadras/01/3.jpg"
-            }
-          ]
+			"id": 1,
+			"url": "/img/QuadraCards/quadra2.jpg"
+		},
+		"fotos": [
+			{
+				"id": 1,
+				"url": "https://via.placeholder.com/1024x768"
+			},
+			{
+				"id": 2,
+				"url": "img/quadras/01/2.jpg"
+			},
+			{
+				"id": 3,
+				"url": "img/quadras/01/3.jpg"
+			}
+		]
 	},
 	{
 		"id": 4,
 		"dataCadastro": "2022-04-27T19:21:45.299Z",
 		"dataAtualizacao": "2022-04-27T19:21:45.299Z",
+		"local_id": 0,
 		"quadra_tipo_id": 4,
+		"imagem": "url",
 		"nome": "JoGolfinho's",
 		"largura": "",
 		"comprimento": "",
 		"descricao": "Como se pode jogar com golfinhos saltitantes e tão habilidosos como estes",
 		"piso": "",
-		"avaliacao": 1.1,
 		"precoHora": 125.43,
-		"precoMeiaHora": 120.00,
+		"precoMeiaHora": 120,
+		"avaliacao": 1.1,
+		"chuteira_tipos_aceito": "",
 		"tem_vestiario": false,
 		"tem_banheiro": false,
 		"tem_chuveiro": false,
@@ -151,24 +160,197 @@
 		"tem_areaAlimentacao": false,
 		"tem_chuteira": false,
 		"tem_bola": false,
-		"chuteira_tipos_aceito": "",
 		"foto": {
-            "id": 1,
-            "url": "/img/QuadraCards/quadra3.jpg"
-          },
-          "fotos": [
-            {
-              "id": 1,
-              "url": "https://via.placeholder.com/1024x768"
-            },
-            {
-              "id": 2,
-              "url": "img/quadras/01/2.jpg"
-            },
-            {
-              "id": 3,
-              "url": "img/quadras/01/3.jpg"
-            }
-          ]
+			"id": 1,
+			"url": "/img/QuadraCards/quadra3.jpg"
+		},
+		"fotos": [
+			{
+				"id": 1,
+				"url": "https://via.placeholder.com/1024x768"
+			},
+			{
+				"id": 2,
+				"url": "img/quadras/01/2.jpg"
+			},
+			{
+				"id": 3,
+				"url": "img/quadras/01/3.jpg"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"dataCadastro": "2022-05-09T18:48:22.231Z",
+		"dataAtualizacao": "2022-05-09T18:48:22.231Z",
+		"local_id": 4,
+		"quadra_tipo_id": 1,
+		"imagem": "url",
+		"nome": "",
+		"largura": "",
+		"comprimento": "",
+		"descricao": "",
+		"piso": "",
+		"precoHora": 0,
+		"precoMeiaHora": 0,
+		"avaliacao": 0,
+		"chuteira_tipos_aceito": "",
+		"tem_vestiario": false,
+		"tem_banheiro": false,
+		"tem_chuveiro": false,
+		"tem_bebedouro": false,
+		"tem_coletes": false,
+		"tem_juiz": false,
+		"tem_cantina": false,
+		"tem_areaAlimentacao": false,
+		"tem_chuteira": false,
+		"tem_bola": false,
+		"foto": null,
+		"fotos": []
+	},
+	{
+		"id": 6,
+		"dataCadastro": "2022-05-09T19:36:14.526Z",
+		"dataAtualizacao": "2022-05-09T19:36:14.526Z",
+		"local_id": 5,
+		"quadra_tipo_id": 1,
+		"imagem": "url",
+		"nome": "",
+		"largura": "",
+		"comprimento": "",
+		"descricao": "",
+		"piso": "",
+		"precoHora": 0,
+		"precoMeiaHora": 0,
+		"avaliacao": 0,
+		"chuteira_tipos_aceito": "",
+		"tem_vestiario": false,
+		"tem_banheiro": false,
+		"tem_chuveiro": false,
+		"tem_bebedouro": false,
+		"tem_coletes": false,
+		"tem_juiz": false,
+		"tem_cantina": false,
+		"tem_areaAlimentacao": false,
+		"tem_chuteira": false,
+		"tem_bola": false,
+		"foto": null,
+		"fotos": []
+	},
+	{
+		"id": 7,
+		"dataCadastro": "2022-05-09T19:36:46.696Z",
+		"dataAtualizacao": "2022-05-09T19:36:46.696Z",
+		"local_id": 6,
+		"quadra_tipo_id": 1,
+		"imagem": "url",
+		"nome": "",
+		"largura": "",
+		"comprimento": "",
+		"descricao": "",
+		"piso": "",
+		"precoHora": 0,
+		"precoMeiaHora": 0,
+		"avaliacao": 0,
+		"chuteira_tipos_aceito": "",
+		"tem_vestiario": false,
+		"tem_banheiro": false,
+		"tem_chuveiro": false,
+		"tem_bebedouro": false,
+		"tem_coletes": false,
+		"tem_juiz": false,
+		"tem_cantina": false,
+		"tem_areaAlimentacao": false,
+		"tem_chuteira": false,
+		"tem_bola": false,
+		"foto": null,
+		"fotos": []
+	},
+	{
+		"id": 8,
+		"dataCadastro": "2022-05-09T19:37:53.953Z",
+		"dataAtualizacao": "2022-05-09T19:37:53.953Z",
+		"local_id": 7,
+		"quadra_tipo_id": 1,
+		"imagem": "url",
+		"nome": "",
+		"largura": "",
+		"comprimento": "",
+		"descricao": "",
+		"piso": "",
+		"precoHora": 0,
+		"precoMeiaHora": 0,
+		"avaliacao": 0,
+		"chuteira_tipos_aceito": "",
+		"tem_vestiario": false,
+		"tem_banheiro": false,
+		"tem_chuveiro": false,
+		"tem_bebedouro": false,
+		"tem_coletes": false,
+		"tem_juiz": false,
+		"tem_cantina": false,
+		"tem_areaAlimentacao": false,
+		"tem_chuteira": false,
+		"tem_bola": false,
+		"foto": null,
+		"fotos": []
+	},
+	{
+		"id": 9,
+		"dataCadastro": "2022-05-10T16:49:45.171Z",
+		"dataAtualizacao": "2022-05-10T16:49:45.171Z",
+		"local_id": 8,
+		"quadra_tipo_id": 1,
+		"imagem": "url",
+		"nome": "",
+		"largura": "",
+		"comprimento": "",
+		"descricao": "",
+		"piso": "",
+		"precoHora": 0,
+		"precoMeiaHora": 0,
+		"avaliacao": 0,
+		"chuteira_tipos_aceito": "",
+		"tem_vestiario": false,
+		"tem_banheiro": false,
+		"tem_chuveiro": false,
+		"tem_bebedouro": false,
+		"tem_coletes": false,
+		"tem_juiz": false,
+		"tem_cantina": false,
+		"tem_areaAlimentacao": false,
+		"tem_chuteira": false,
+		"tem_bola": false,
+		"foto": null,
+		"fotos": []
+	},
+	{
+		"id": 10,
+		"dataCadastro": "2022-05-10T19:34:15.083Z",
+		"dataAtualizacao": "2022-05-10T19:34:15.083Z",
+		"local_id": 9,
+		"quadra_tipo_id": 1,
+		"imagem": "url",
+		"nome": "",
+		"largura": "",
+		"comprimento": "",
+		"descricao": "",
+		"piso": "",
+		"precoHora": 0,
+		"precoMeiaHora": 0,
+		"avaliacao": 0,
+		"chuteira_tipos_aceito": "",
+		"tem_vestiario": false,
+		"tem_banheiro": false,
+		"tem_chuveiro": false,
+		"tem_bebedouro": false,
+		"tem_coletes": false,
+		"tem_juiz": false,
+		"tem_cantina": false,
+		"tem_areaAlimentacao": false,
+		"tem_chuteira": false,
+		"tem_bola": false,
+		"foto": null,
+		"fotos": []
 	}
 ]
