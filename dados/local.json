@@ -1,79 +1,21 @@
 [
 	{
-		"id": 1,
-		"dataCadastro": "2022-04-27T19:36:47.040Z",
-		"dataAtualizacao": "2022-04-27T19:36:47.040Z",
-		"nome": "",
-		"username": "",
-		"endereco": {
-			"rua": "",
-			"numero": "",
-			"quadra": "",
-			"cep": "",
-			"logradouro": "",
-			"complemento": "",
-			"bairro": "",
-			"estado": "São Paulo",
-			"cidade": "Bauru"
-		},
-		"fone": "",
-		"horarios": [],
-		"descricao": "",
-		"preco": ""
-	},
-	{
-		"id": 2,
-		"dataCadastro": "2022-04-27T19:36:47.040Z",
-		"dataAtualizacao": "2022-04-27T19:36:47.040Z",
-		"nome": "",
-		"username": "",
-		"endereco": {
-			"rua": "",
-			"numero": "",
-			"quadra": "",
-			"cep": "",
-			"logradouro": "",
-			"complemento": "",
-			"bairro": "",
-			"estado": "São Paulo",
-			"cidade": "Campinas"
-		},
-		"fone": "",
-		"horarios": [],
-		"descricao": "",
-		"preco": ""
-	},
-	{
-		"id": 3,
-		"dataCadastro": "2022-04-27T19:36:47.040Z",
-		"dataAtualizacao": "2022-04-27T19:36:47.040Z",
-		"nome": "",
-		"username": "",
-		"endereco": {
-			"rua": "",
-			"numero": "",
-			"quadra": "",
-			"cep": "",
-			"logradouro": "",
-			"complemento": "",
-			"bairro": "",
-			"estado": "Minas Gerais",
-			"cidade": "Poços de Caldas"
-		},
-		"fone": "",
-		"horarios": [],
-		"descricao": ""
-	},
-	{
-		"id": 4,
-		"dataCadastro": "2022-05-09T18:48:22.204Z",
-		"dataAtualizacao": "2022-05-09T18:48:22.204Z",
-		"nome": "",
+		"id": 10,
+		"dataCadastro": "2022-05-11T16:55:58.433Z",
+		"dataAtualizacao": "2022-05-11T16:55:58.433Z",
+		"nome": "Local Número 1",
 		"username": "",
 		"endereco": {},
 		"fone": "",
 		"horarios": [
 			{
+				"dia": 7,
+				"desc": "Sábado",
+				"aberto": false,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
 				"dia": 0,
 				"desc": "Domingo",
 				"aberto": false,
@@ -86,20 +28,55 @@
 				"aberto": true,
 				"inicio": "08:00",
 				"fim": "22:00"
+			},
+			{
+				"dia": 2,
+				"desc": "Terça-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 3,
+				"desc": "Quarta-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 4,
+				"desc": "Quinta-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 5,
+				"desc": "Sexta-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
 			}
 		],
 		"descricao": ""
 	},
 	{
-		"id": 5,
-		"dataCadastro": "2022-05-09T19:36:14.500Z",
-		"dataAtualizacao": "2022-05-09T19:36:14.500Z",
-		"nome": "",
+		"id": 11,
+		"dataCadastro": "2022-05-11T16:56:08.071Z",
+		"dataAtualizacao": "2022-05-11T16:56:08.071Z",
+		"nome": "Local Número 2",
 		"username": "",
 		"endereco": {},
 		"fone": "",
 		"horarios": [
 			{
+				"dia": 7,
+				"desc": "Sábado",
+				"aberto": false,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
 				"dia": 0,
 				"desc": "Domingo",
 				"aberto": false,
@@ -140,27 +117,27 @@
 				"aberto": true,
 				"inicio": "08:00",
 				"fim": "22:00"
-			},
-			{
-				"dia": 7,
-				"desc": "Sábado",
-				"aberto": false,
-				"inicio": "08:00",
-				"fim": "22:00"
 			}
 		],
 		"descricao": ""
 	},
 	{
-		"id": 6,
-		"dataCadastro": "2022-05-09T19:36:46.671Z",
-		"dataAtualizacao": "2022-05-09T19:36:46.671Z",
-		"nome": "",
+		"id": 12,
+		"dataCadastro": "2022-05-11T16:56:15.355Z",
+		"dataAtualizacao": "2022-05-11T16:56:15.355Z",
+		"nome": "Local Número 3",
 		"username": "",
 		"endereco": {},
 		"fone": "",
 		"horarios": [
 			{
+				"dia": 7,
+				"desc": "Sábado",
+				"aberto": false,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
 				"dia": 0,
 				"desc": "Domingo",
 				"aberto": false,
@@ -199,13 +176,6 @@
 				"dia": 5,
 				"desc": "Sexta-feira",
 				"aberto": true,
-				"inicio": "08:00",
-				"fim": "22:00"
-			},
-			{
-				"dia": 7,
-				"desc": "Sábado",
-				"aberto": false,
 				"inicio": "08:00",
 				"fim": "22:00"
 			}
@@ -213,166 +183,18 @@
 		"descricao": ""
 	},
 	{
-		"id": 7,
-		"dataCadastro": "2022-05-09T19:37:53.928Z",
-		"dataAtualizacao": "2022-05-09T19:37:53.928Z",
-		"nome": "QuadraTeste",
-		"username": "quadrateste",
-		"endereco": {
-			"cep": "17014040",
-			"rua": "Rua Machado de Assis",
-			"compl": "até Quadra 8",
-			"bairro": "Vila Nova Santa Clara",
-			"estado": "SP",
-			"cidade": "Bauru",
-			"numero": "46"
-		},
+		"id": 13,
+		"dataCadastro": "2022-05-11T16:56:24.875Z",
+		"dataAtualizacao": "2022-05-11T16:56:24.875Z",
+		"nome": "Local Número 4",
+		"username": "",
+		"endereco": {},
 		"fone": "",
 		"horarios": [
 			{
-				"dia": 0,
-				"desc": "Domingo",
-				"aberto": false,
-				"inicio": "08:00",
-				"fim": "22:00"
-			},
-			{
-				"dia": 1,
-				"desc": "Segunda-feira",
-				"aberto": true,
-				"inicio": "08:00",
-				"fim": "22:00"
-			},
-			{
-				"dia": 2,
-				"desc": "Terça-feira",
-				"aberto": true,
-				"inicio": "08:00",
-				"fim": "22:00"
-			},
-			{
-				"dia": 3,
-				"desc": "Quarta-feira",
-				"aberto": true,
-				"inicio": "08:00",
-				"fim": "22:00"
-			},
-			{
-				"dia": 4,
-				"desc": "Quinta-feira",
-				"aberto": true,
-				"inicio": "08:00",
-				"fim": "22:00"
-			},
-			{
-				"dia": 5,
-				"desc": "Sexta-feira",
-				"aberto": true,
-				"inicio": "08:00",
-				"fim": "22:00"
-			},
-			{
 				"dia": 7,
 				"desc": "Sábado",
 				"aberto": false,
-				"inicio": "08:00",
-				"fim": "22:00"
-			}
-		],
-		"descricao": "",
-		"preco": "300"
-	},
-	{
-		"id": 8,
-		"dataCadastro": "2022-05-10T16:49:45.147Z",
-		"dataAtualizacao": "2022-05-10T16:49:45.147Z",
-		"nome": "teste",
-		"username": "testedaquadra",
-		"endereco": {
-			"cep": "17014040",
-			"rua": "Rua Machado de Assis",
-			"compl": "até Quadra 8",
-			"bairro": "Vila Nova Santa Clara",
-			"estado": "SP",
-			"cidade": "Bauru",
-			"numero": "46"
-		},
-		"fone": "",
-		"horarios": [
-			{
-				"dia": 0,
-				"desc": "Domingo",
-				"aberto": false,
-				"inicio": "08:00",
-				"fim": "22:00"
-			},
-			{
-				"dia": 1,
-				"desc": "Segunda-feira",
-				"aberto": true,
-				"inicio": "08:00",
-				"fim": "22:00"
-			},
-			{
-				"dia": 2,
-				"desc": "Terça-feira",
-				"aberto": true,
-				"inicio": "08:00",
-				"fim": "22:00"
-			},
-			{
-				"dia": 3,
-				"desc": "Quarta-feira",
-				"aberto": true,
-				"inicio": "08:00",
-				"fim": "22:00"
-			},
-			{
-				"dia": 4,
-				"desc": "Quinta-feira",
-				"aberto": true,
-				"inicio": "08:00",
-				"fim": "22:00"
-			},
-			{
-				"dia": 5,
-				"desc": "Sexta-feira",
-				"aberto": true,
-				"inicio": "08:00",
-				"fim": "22:00"
-			},
-			{
-				"dia": 7,
-				"desc": "Sábado",
-				"aberto": false,
-				"inicio": "08:00",
-				"fim": "22:00"
-			}
-		],
-		"descricao": "",
-		"preco": "120"
-	},
-	{
-		"id": 9,
-		"dataCadastro": "2022-05-10T19:34:15.062Z",
-		"dataAtualizacao": "2022-05-10T19:34:15.062Z",
-		"nome": "Outro teste qualquer",
-		"username": "outro-teste-qualquer",
-		"endereco": {
-			"cep": "17014505",
-			"rua": "Rua José Fernandes",
-			"compl": "até Quadra 3",
-			"bairro": "Vila Samaritana",
-			"estado": "SP",
-			"cidade": "Bauru",
-			"numero": "12"
-		},
-		"fone": "123123123",
-		"horarios": [
-			{
-				"dia": 7,
-				"desc": "Sábado",
-				"aberto": true,
 				"inicio": "08:00",
 				"fim": "22:00"
 			},
@@ -419,9 +241,6 @@
 				"fim": "22:00"
 			}
 		],
-		"descricao": "Outro teste qualquer",
-		"cel": "123123123",
-		"email": "123123123",
-		"preco": "12312"
+		"descricao": ""
 	}
 ]
