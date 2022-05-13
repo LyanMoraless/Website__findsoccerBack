@@ -242,5 +242,222 @@
 			}
 		],
 		"descricao": ""
+	},
+	{
+		"id": 14,
+		"dataCadastro": "2022-05-13T19:20:03.718Z",
+		"dataAtualizacao": "2022-05-13T19:20:03.718Z",
+		"nome": "",
+		"username": "",
+		"endereco": {},
+		"fone": "",
+		"horarios": [
+			{
+				"dia": 7,
+				"desc": "Sábado",
+				"aberto": false,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 0,
+				"desc": "Domingo",
+				"aberto": false,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 1,
+				"desc": "Segunda-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 2,
+				"desc": "Terça-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 3,
+				"desc": "Quarta-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 4,
+				"desc": "Quinta-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 5,
+				"desc": "Sexta-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			}
+		],
+		"descricao": ""
+	},
+	{
+		"id": 15,
+		"dataCadastro": "2022-05-13T19:20:16.117Z",
+		"dataAtualizacao": "2022-05-13T19:20:16.117Z",
+		"nome": "",
+		"username": "",
+		"endereco": {},
+		"fone": "",
+		"horarios": [
+			{
+				"dia": 7,
+				"desc": "Sábado",
+				"aberto": false,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 0,
+				"desc": "Domingo",
+				"aberto": false,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 1,
+				"desc": "Segunda-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 2,
+				"desc": "Terça-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 3,
+				"desc": "Quarta-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 4,
+				"desc": "Quinta-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 5,
+				"desc": "Sexta-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			}
+		],
+		"descricao": "",
+		"img": "aa",
+		"qdDtls": [
+			{
+				"id": 1,
+				"vestiario": true,
+				"banheiro": true,
+				"chuveiro": true,
+				"bebedouro": true,
+				"coletes": true,
+				"juiz": false,
+				"cantina": false,
+				"areaAlimentacao": true,
+				"chuteira": false,
+				"bola": true,
+				"estacionamento": false
+			}
+		]
+	},
+	{
+		"id": 16,
+		"dataCadastro": "2022-05-13T19:20:39.274Z",
+		"dataAtualizacao": "2022-05-13T19:20:39.274Z",
+		"nome": "",
+		"username": "",
+		"endereco": {},
+		"fone": "",
+		"horarios": [
+			{
+				"dia": 7,
+				"desc": "Sábado",
+				"aberto": false,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 0,
+				"desc": "Domingo",
+				"aberto": false,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 1,
+				"desc": "Segunda-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 2,
+				"desc": "Terça-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 3,
+				"desc": "Quarta-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 4,
+				"desc": "Quinta-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			},
+			{
+				"dia": 5,
+				"desc": "Sexta-feira",
+				"aberto": true,
+				"inicio": "08:00",
+				"fim": "22:00"
+			}
+		],
+		"descricao": "",
+		"img": "aa",
+		"qdDtls": [
+			{
+				"id": 1,
+				"vestiario": true,
+				"banheiro": true,
+				"chuveiro": true,
+				"bebedouro": true,
+				"coletes": true,
+				"juiz": false,
+				"cantina": false,
+				"areaAlimentacao": true,
+				"chuteira": false,
+				"bola": true,
+				"estacionamento": false
+			}
+		]
 	}
 ]
