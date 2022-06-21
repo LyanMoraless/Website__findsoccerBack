@@ -1,0 +1,2 @@
+# Faça o download dos pacotes necessários para a instalação (yarn)
+# Para inicializar o projeto basta usar o comando (yarn dev)
