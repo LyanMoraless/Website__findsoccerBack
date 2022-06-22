@@ -19,6 +19,7 @@ class Local extends Modelo {
     fone = '';
     horarios = [];
     descricao = '';
+    usuario_id = 0;
 }
 
 module.exports = Local;
