@@ -24,7 +24,7 @@
 		"tem_cantina": false,
 		"tem_areaAlimentacao": false,
 		"tem_chuteira": false,
-		"tem_bola": false,
+		"tem_bola": false,	
 		"foto": {
 			"id": 1,
 			"url": "/img/QuadraCards/quadra.jpg"
