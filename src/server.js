@@ -1,13 +1,14 @@
-const express = require('express')
-const bodyParser = require('body-parser')
-const cors = require('cors')
-const {join} = require('path')
-const Modelo = require('./framework/Modelo')
+const express = require('express');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const { join } = require('path');
+const Modelo = require('./framework/Modelo');
+const sequelize = require('./modelos')
 
-// const usuarios = require('./rotas/usuarioRotas')
-const local = require('./rotas/local')
-const quadra = require('./rotas/quadra')
-const quadraTipo = require('./rotas/quadraTipo')
+const usuario = require('./routers/usuario')
+const local = require('./routers/local')
+const quadra = require('./routers/quadra')
+// const quadraTipo = require('./routers/quadraTipo');
 
 const port = 3000
 
@@ -22,12 +23,17 @@ app.get('/', (req, res) => {
     res.send('API v1.0');
 });
 
-// app.use('/usuarios', usuarios);
+app.use('/usuarios', usuario);
 app.use('/locais', local);
 app.use('/quadras', quadra);
-app.use('/quadras-tipos', quadraTipo);
+// app.use('/quadras-tipos', quadraTipo);
 
+sequelize.sync().then(() => {
+    app.listen(port, () => {
+        console.log(`Servidor iniciado na porta ${port}`)
+    })
+});
 
-app.listen(port, () => {
-    console.log(`Servidor rodando na porta ${port}`)
-})
+// app.listen(port, () => {
+//     console.log(`Servidor rodando na porta ${port}`)
+// })

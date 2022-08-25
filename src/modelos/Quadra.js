@@ -1,26 +1,25 @@
 const Modelo = require('../framework/Modelo')
-const { Sequelize, Datatypes } = require('sequelize');
-
-const sequelize = new Sequelize(process.env.NODE_ENV == 'test' ? "sqlite::memory" : 'sqlite:./db.sql');
+const { Sequelize, DataTypes } = require('sequelize');
+const sequelize = require('.')
 
 const Quadra = sequelize.define('Quadra', {
     local_id: {
-        type: Datatypes.INTEGER,
+        type: DataTypes.INTEGER,
         allowNull: false
     },
     quadra_tipo_id: {
-        type: Datatypes.INTEGER,
+        type: DataTypes.INTEGER,
         allowNull: false
     },
     nome: {
-        type: Datatypes.STRING,
+        type: DataTypes.STRING,
         allowNull: false,
         validate: {
             notEmpty: true
         }
     },
     username: {
-        type: Datatypes.STRING,
+        type: DataTypes.STRING,
         allowNull: false,
         validate: {
             notEmpty: true,
@@ -28,14 +27,14 @@ const Quadra = sequelize.define('Quadra', {
         }
     },
     descricao: {
-        type: Datatypes.STRING,
+        type: DataTypes.STRING,
         allowNull: true,
         validate: {
             
         }
     },
     img: {
-        type: Datatypes.UUID,
+        type: DataTypes.UUID,
         allowNull: false,
         validate: {
             notEmpty: true
@@ -43,81 +42,29 @@ const Quadra = sequelize.define('Quadra', {
     },
     
     cel: {
-        type: Datatypes.STRING,
+        type: DataTypes.STRING,
         allowNull: false,
         validate: {
             notEmpty: true
         }
     },
     fone: {
-        type: Datatypes.STRING,
+        type: DataTypes.STRING,
         allowNull: true,
         validate: {
             
         }
     },
     email: {
-        type: Datatypes.STRING,
+        type: DataTypes.STRING,
         allowNull: false,
         validate: {
             notEmpty: true,
             isEmail: true
         }
     },
-
-    cep: {
-        type: Datatypes.STRING,
-        allowNull: false,
-        validate: {
-            notEmpty: true
-        }
-    },
-    rua: {
-        type: Datatypes.STRING,
-        allowNull: false,
-        validate: {
-            notEmpty: true
-        }
-    },
-    compl: {
-        type: Datatypes.STRING,
-        allowNull: true,
-        validate: {
-
-        }
-    },
-    bairro: {
-        type: Datatypes.STRING,
-        allowNull: false,
-        validate: {
-            notEmpty: true
-        }
-    },
-    estado: {
-        type: Datatypes.STRING,
-        allowNull: false,
-        validate: {
-            notEmpty: true
-        }
-    },
-    cidade: {
-        type: Datatypes.STRING,
-        allowNull: false,
-        validate: {
-            notEmpty: true
-        }
-    },
-    numero: {
-        type: Datatypes.NUMBER,
-        allowNull: false,
-        validate: {
-            notEmpty: true,
-            isInt: true
-        }
-    },
-
     preco: {
-        type: Datatypes.DECIMAL,
+        type: DataTypes.DECIMAL,
         allowNull: false,
         validate: {
             notEmpty: true,
@@ -158,4 +105,4 @@ const Quadra = sequelize.define('Quadra', {
 
 //module.exports = Quadra;
 
-module.exports = { sequelize, Quadra }
+module.exports = Quadra
