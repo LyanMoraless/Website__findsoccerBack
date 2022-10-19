@@ -30,7 +30,8 @@ app.use('/quadras', quadra);
 app.use('/recursos', recurso);
 app.use('/quadra-tipos', quadraTipo);
 
-sequelize.sync().then(() => {
+sequelize.sync().then(async () => {
+
     app.listen(port, () => {
         console.log(`Servidor iniciado na porta ${port}`)
     })

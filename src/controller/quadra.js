@@ -1,8 +1,11 @@
 const Quadra = require('../modelos/Quadra');
+const Recurso = require('../modelos/Recurso');
 
 async function getAllQuadras(req, res, next) {
     try {
-        res.send(await Quadra.findAll());
+        res.send(await Quadra.findAll({
+            include: [Recurso]
+        }));
     }
     catch (err) {
         next(err);
@@ -11,9 +14,11 @@ async function getAllQuadras(req, res, next) {
 async function getOneQuadra(req, res, next) {
     try {
         const quadra = await Quadra.findOne({
+            include: [Recurso],
             where: {
                 id: req.params.id
             }
+            
         });
         if (!quadra) throw new Error("Quadra não existe");
         res.send(quadra);
@@ -24,7 +29,9 @@ async function getOneQuadra(req, res, next) {
 }
 async function insertQuadra(req, res, next) { 
     try {
-        const quadra = await Quadra.create(req.body);
+        const quadra = await Quadra.create(req.body, {
+            include: [Recurso]
+        });
         res.send(quadra);
     } catch (err) {
         next(err);
@@ -42,7 +49,9 @@ async function updateQuadra(req, res, next) {
 
         quadra.set(req.body);
 
-        await quadra.save();
+        await quadra.save({
+            include: [Recurso]
+        });
 
         res.send(quadra);
 

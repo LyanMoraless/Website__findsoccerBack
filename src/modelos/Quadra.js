@@ -6,10 +6,6 @@ const QuadraTipo = require('./QuadraTipo');
 const Recurso = require('./Recurso');
 
 const Quadra = sequelize.define('quadra', {
-    quadra_tipo_id: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-    },
     nome: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -17,12 +13,18 @@ const Quadra = sequelize.define('quadra', {
             notEmpty: true
         }
     },
-    username: {
-        type: DataTypes.STRING,
+    largura: {
+        type: DataTypes.FLOAT,
         allowNull: false,
         validate: {
             notEmpty: true,
-            isLowercase: true
+        }
+    },
+    comprimento: {
+        type: DataTypes.FLOAT,
+        allowNull: false,
+        validate: {
+            notEmpty: true,
         }
     },
     descricao: {
@@ -32,45 +34,20 @@ const Quadra = sequelize.define('quadra', {
             
         }
     },
-    img: {
-        type: DataTypes.UUID,
-        allowNull: false,
-        validate: {
-            notEmpty: true
-        }
-    },
-    
-    cel: {
-        type: DataTypes.STRING,
-        allowNull: false,
-        validate: {
-            notEmpty: true
-        }
-    },
-    fone: {
-        type: DataTypes.STRING,
-        allowNull: true,
-        validate: {
-            
-        }
-    },
-    email: {
-        type: DataTypes.STRING,
-        allowNull: false,
-        validate: {
-            notEmpty: true,
-            isEmail: true
-        }
-    },
     preco: {
         type: DataTypes.DECIMAL,
         allowNull: false,
         validate: {
             notEmpty: true,
-            isDecimal: true
         }
     },
-
+    quadraTipo: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        validate: {
+            notEmpty: true
+        }
+    },
 })
 
 Quadra.belongsTo(Local);
