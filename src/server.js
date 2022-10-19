@@ -8,7 +8,8 @@ const sequelize = require('./modelos')
 const usuario = require('./routers/usuario')
 const local = require('./routers/local')
 const quadra = require('./routers/quadra')
-// const quadraTipo = require('./routers/quadraTipo');
+const recurso = require('./routers/recurso')
+const quadraTipo = require('./routers/quadraTipo');
 
 const port = 3000
 
@@ -26,7 +27,8 @@ app.get('/', (req, res) => {
 app.use('/usuarios', usuario);
 app.use('/locais', local);
 app.use('/quadras', quadra);
-// app.use('/quadras-tipos', quadraTipo);
+app.use('/recursos', recurso);
+app.use('/quadra-tipos', quadraTipo);
 
 sequelize.sync().then(() => {
     app.listen(port, () => {

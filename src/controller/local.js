@@ -1,3 +1,4 @@
+const Horario = require('../modelos/Horario');
 const Local = require('../modelos/Local');
 
 async function getAllLocals(req, res, next) {
@@ -24,7 +25,9 @@ async function getOneLocal(req, res, next) {
 };
 async function insertLocal(req, res, next) { 
     try {
-        const local = await Local.create(req.body);
+        const local = await Local.create(req.body, {
+            include: [Horario]
+        });
         res.send(local);
     } catch (err) {
         next(err);
@@ -42,7 +45,9 @@ async function updateLocal(req, res, next) {
 
         local.set(req.body);
 
-        await local.save();
+        await local.save({
+            include: [Horario]
+        });
 
         res.send(local);
 

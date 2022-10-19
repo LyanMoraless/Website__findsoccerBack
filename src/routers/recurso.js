@@ -1,5 +1,5 @@
 const express = require('express');
-const { getAll, getOne, insert, update, remove  } = require('../controller/quadraTipo')
+const { getAll, getOne, insert, update, remove  } = require('../controller/recurso')
 
 const router = express.Router();
 

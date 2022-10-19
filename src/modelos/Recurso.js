@@ -1,7 +1,8 @@
+const Modelo = require('../framework/Modelo')
 const { Sequelize, DataTypes } = require('sequelize');
 const sequelize = require('.');
 
-const QuadraTipo = sequelize.define('quadra_tipo', {
+const Recurso = sequelize.define('recurso', {
     nome: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -12,4 +13,5 @@ const QuadraTipo = sequelize.define('quadra_tipo', {
     },
 })
 
-module.exports = QuadraTipo;
+
+module.exports = Recurso

@@ -1,12 +1,11 @@
 const Modelo = require('../framework/Modelo')
 const { Sequelize, DataTypes } = require('sequelize');
-const sequelize = require('.')
+const sequelize = require('.');
+const Local = require('./Local');
+const QuadraTipo = require('./QuadraTipo');
+const Recurso = require('./Recurso');
 
-const Quadra = sequelize.define('Quadra', {
-    local_id: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-    },
+const Quadra = sequelize.define('quadra', {
     quadra_tipo_id: {
         type: DataTypes.INTEGER,
         allowNull: false
@@ -74,35 +73,13 @@ const Quadra = sequelize.define('Quadra', {
 
 })
 
-// class Quadra extends Modelo {
-//     static arquivo = 'quadra.json';
+Quadra.belongsTo(Local);
+Local.hasMany(Quadra);
 
-//     local_id = 0;
-//     quadra_tipo_id = 0;
-//     imagem = 'url';
-//     nome = '';
-//     largura = '';
-//     comprimento = '';
-//     descricao = '';
-//     piso = '';
-//     precoHora = 0;
-//     precoMeiaHora = 0; 
-//     avaliacao = 0;
-//     chuteira_tipos_aceito = '';
-//     tem_vestiario = false;
-//     tem_banheiro = false;
-//     tem_chuveiro = false;
-//     tem_bebedouro = false;
-//     tem_coletes = false;
-//     tem_juiz = false;
-//     tem_cantina = false;
-//     tem_areaAlimentacao = false;
-//     tem_chuteira = false;
-//     tem_bola = false;
-//     foto = null;
-//     fotos = [];
-// }
+Quadra.belongsTo(QuadraTipo);
+QuadraTipo.hasMany(Quadra);
 
-//module.exports = Quadra;
+Quadra.belongsToMany(Recurso, { through: 'quadra_recursos' });
+Recurso.belongsToMany(Quadra, { through: 'quadra_recursos' });
 
 module.exports = Quadra

@@ -1,8 +1,8 @@
-const QuadraTipo = require('../modelos/QuadraTipo');
+const Recurso = require('../modelos/Recurso');
 
 async function getAll(req, res, next) {
     try {
-        res.send(await QuadraTipo.findAll())
+        res.send(await Recurso.findAll())
     }
     catch(err) {
         next(err)
@@ -10,12 +10,12 @@ async function getAll(req, res, next) {
 };
 async function getOne(req, res, next) {
     try {
-        const local = await QuadraTipo.findOne({
+        const local = await Recurso.findOne({
             where: {
                 id: req.params.id
             }
         });
-        if (!local) throw new Error("QuadraTipo não existe");
+        if (!local) throw new Error("Recurso não existe");
         res.send(local);
     }
     catch (err) {
@@ -24,7 +24,7 @@ async function getOne(req, res, next) {
 };
 async function insert(req, res, next) { 
     try {
-        const local = await QuadraTipo.create(req.body);
+        const local = await Recurso.create(req.body);
         res.send(local);
     } catch (err) {
         next(err);
@@ -32,13 +32,13 @@ async function insert(req, res, next) {
 };
 async function update(req, res, next) { 
     try {
-        const local = await QuadraTipo.findOne({
+        const local = await Recurso.findOne({
             where: {
                 id: req.params.id
             }
         }); 
         
-        if (!local) throw new Error("QuadraTipo não existe");
+        if (!local) throw new Error("Recurso não existe");
 
         local.set(req.body);
 
@@ -52,13 +52,13 @@ async function update(req, res, next) {
 };
 async function remove(req, res, next) { 
     try {
-        const local = await QuadraTipo.findOne({
+        const local = await Recurso.findOne({
             where: {
                 id: req.params.id
             }
         });
 
-        if (!local) throw new Error("QuadraTipo não existe");
+        if (!local) throw new Error("Recurso não existe");
 
         await local.destroy();
 

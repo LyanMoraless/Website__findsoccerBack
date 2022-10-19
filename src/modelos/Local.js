@@ -1,15 +1,10 @@
 // const Modelo = require('../framework/Modelo')
 const { Sequelize, DataTypes } = require('sequelize');
-const sequelize = require('.')
+const sequelize = require('.');
+const Horario = require('./Horario');
+const Usuario = require('./Usuario');
 
-const Local = sequelize.define('Local', {
-    usuario_id: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-        validate: {
-            notEmpty: true
-        }
-    },
+const Local = sequelize.define('local', {
     nome: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -74,39 +69,15 @@ const Local = sequelize.define('Local', {
             notEmpty: true,
             isInt: true
         }
-    },
-    horarios: {
-        type: DataTypes.DATE,
-        allowNull: false,
-        validate: {
-            notEmpty: true,
-            isArray: true
-        }
     }
 })
 
-// class Local extends Modelo {
-//     static arquivo = 'local.json';
 
-//     nome = '';
-//     username = '';
-//     endereco = {
-//         rua: "",
-//         numero: "",
-//         quadra: "",
-//         cep: "",
-//         logradouro: "",
-//         complemento: "",
-//         bairro: "",
-//         estado: "",
-//         cidade: ""
-//     };
-//     fone = '';
-//     horarios = [];
-//     descricao = '';
-//     usuario_id = 0;
-// }
+Local.belongsTo(Usuario);
+Usuario.hasMany(Local);
 
-// module.exports = Local;
+Horario.belongsTo(Local);
+Local.hasMany(Horario);
+
 
 module.exports = Local
