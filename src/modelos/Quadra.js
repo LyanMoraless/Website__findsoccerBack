@@ -41,13 +41,6 @@ const Quadra = sequelize.define('quadra', {
             notEmpty: true,
         }
     },
-    quadraTipo: {
-        type: DataTypes.STRING,
-        allowNull: false,
-        validate: {
-            notEmpty: true
-        }
-    },
 })
 
 Quadra.belongsTo(Local);

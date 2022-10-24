@@ -1,10 +1,11 @@
 const Quadra = require('../modelos/Quadra');
+const QuadraTipo = require('../modelos/QuadraTipo');
 const Recurso = require('../modelos/Recurso');
 
 async function getAllQuadras(req, res, next) {
     try {
         res.send(await Quadra.findAll({
-            include: [Recurso]
+            include: [Recurso, QuadraTipo]
         }));
     }
     catch (err) {
@@ -14,7 +15,7 @@ async function getAllQuadras(req, res, next) {
 async function getOneQuadra(req, res, next) {
     try {
         const quadra = await Quadra.findOne({
-            include: [Recurso],
+            include: [Recurso, QuadraTipo],
             where: {
                 id: req.params.id
             }

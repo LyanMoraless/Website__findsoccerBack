@@ -2,7 +2,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const { join } = require('path');
-const Modelo = require('./framework/Modelo');
 const sequelize = require('./modelos')
 
 const usuario = require('./routers/usuario')
@@ -12,8 +11,6 @@ const recurso = require('./routers/recurso')
 const quadraTipo = require('./routers/quadraTipo');
 
 const port = 3000
-
-Modelo.dir = join(__dirname, '..', 'dados')
 
 const app = express()
 app.use(cors())
